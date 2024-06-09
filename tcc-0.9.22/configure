@@ -30,7 +30,7 @@ host_cc="gcc"
 ar="ar"
 make="make"
 strip="strip"
-cpu=`uname -m`
+cpu=i386
 case "$cpu" in
   i386|i486|i586|i686|i86pc|BePC)
     cpu="x86"

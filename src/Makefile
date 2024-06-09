@@ -1,7 +1,7 @@
 # modify to your linux-2.4.26 kernel path (you must build the kernel first)
 KERNEL_PATH=../linux-2.4.26
 # modify to your TinyCC 0.9.21 path (you must build TinyCC first)
-TCC_PATH=../..
+TCC_PATH=../tcc-0.9.22
 CC=gcc
 CFLAGS=-D__KERNEL__ -Wall -O2 -g -I$(KERNEL_PATH)/include -fno-builtin-printf -DCONFIG_TCCBOOT -mpreferred-stack-boundary=2 -march=i386 -falign-functions=0 -I.
 
